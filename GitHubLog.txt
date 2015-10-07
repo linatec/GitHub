@@ -1,0 +1,582 @@
+2015-10-07 18:43:44.5180|WARN|thread: 1|StandardUserErrors|Showing user error Failed to create a new commit.
+System.ArgumentNullException: Failed Null Check on 'commitModel'
+參數名稱: commitModel
+   於 GitHub.Helpers.Ensure.ArgumentNotNull(Object value, String name)
+   於 GitHub.ViewModels.CommitViewModel..ctor(IRepositoryModel repository, ICommitModel commitModel, ICommittedFileForklift committedFileForklift, IAvatarProvider avatarProvider, IInlineTextProvider inlineTextProvider)
+   於 GitHub.Helpers.CommitCreator.<>c__DisplayClass2.<CreateCommit>b__1(<>f__AnonymousType0`2 x)
+   於 System.Reactive.Linq.ObservableImpl.Select`2._.OnNext(TSource value)
+2015-10-07 18:34:41.9091|INFO|thread: 1|CommandLineHandler|Parsing command line arguments:http://github-windows.s3.amazonaws.com/GitHub.application
+2015-10-07 18:34:41.9559|INFO|thread: 1|AppInstanceCommunicator|Starting up as master instance of GitHub Desktop
+2015-10-07 18:34:41.9715|INFO|thread: 5|StartupLogging| #########################################
+2015-10-07 18:34:41.9715|INFO|thread: 5|StartupLogging| GitHub Desktop started. VERSION: 3.0.5.2
+2015-10-07 18:34:41.9715|INFO|thread: 5|StartupLogging| Build version: a0622a5279b4491e0f43dbed6bd0709d1b40123e
+2015-10-07 18:34:41.9715|INFO|thread: 5|StartupLogging| ***************************************
+2015-10-07 18:34:41.9715|INFO|thread: 5|StartupLogging| ***                                 ***
+2015-10-07 18:34:41.9715|INFO|thread: 5|StartupLogging| ***                                 ***
+2015-10-07 18:34:41.9715|INFO|thread: 5|StartupLogging| ***        Have a problem?          ***
+2015-10-07 18:34:41.9715|INFO|thread: 5|StartupLogging| ***    Email support@github.com     ***
+2015-10-07 18:34:41.9715|INFO|thread: 5|StartupLogging| ***      and include this file      ***
+2015-10-07 18:34:41.9715|INFO|thread: 5|StartupLogging| ***                                 ***
+2015-10-07 18:34:41.9715|INFO|thread: 5|StartupLogging| ***                                 ***
+2015-10-07 18:34:41.9715|INFO|thread: 5|StartupLogging| ***************************************
+2015-10-07 18:34:41.9715|INFO|thread: 5|StartupLogging| OS Version: Windows 7 Service Pack 1 6.1.7601.65536 amd64
+2015-10-07 18:34:41.9715|INFO|thread: 5|StartupLogging| CLR Version: 4.0.30319.17929
+2015-10-07 18:34:41.9715|INFO|thread: 5|StartupLogging| Current culture: zh-TW
+2015-10-07 18:34:41.9715|INFO|thread: 5|StartupLogging| Terminal Services session: no
+2015-10-07 18:34:41.9715|INFO|thread: 5|StartupLogging| Location: C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094\GitHub.exe
+2015-10-07 18:34:41.9871|INFO|thread: 5|StartupLogging| ActivationUri: https://github-windows.s3.amazonaws.com/GitHub.application
+2015-10-07 18:34:42.0339|INFO|thread: 5|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2015-10-07 18:34:42.0339|INFO|thread: 5|GitEnvironment|PATH is C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094;C:\Users\linatec\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files (x86)\Kaspersky Lab\Kaspersky Endpoint Security 10 for Windows\;C:\Program Files\TortoiseSVN\bin
+2015-10-07 18:34:42.0339|INFO|thread: 5|StartupLogging| =====================================================
+2015-10-07 18:34:42.0339|INFO|thread: 5|StartupLogging|  DIAGNOSTICS                                        |
+2015-10-07 18:34:42.0339|INFO|thread: 5|StartupLogging| =====================================================
+2015-10-07 18:34:42.0339|INFO|thread: 5|StartupLogging| Git Extracted: 'False:
+2015-10-07 18:34:42.0495|ERROR|thread: 5|StartupLogging| MISSING PortableGit Dir: 'C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad'
+2015-10-07 18:34:42.0495|ERROR|thread: 5|PortableGitManager|git.exe doesn't exist at 'C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe'
+2015-10-07 18:34:42.0651|ERROR|thread: 5|StartupLogging| MISSING Git Executable: 'C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe'
+2015-10-07 18:34:42.0651|ERROR|thread: 5|StartupLogging| MISSING PATH!!: 'C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd'
+2015-10-07 18:34:42.0651|ERROR|thread: 5|StartupLogging| MISSING PATH!!: 'C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin'
+2015-10-07 18:34:42.0651|ERROR|thread: 5|StartupLogging| MISSING PATH!!: 'C:\Users\linatec\AppData\Local\GitHub\lfs-amd64_0.5.4'
+2015-10-07 18:34:42.0651|ERROR|thread: 5|StartupLogging| MISSING PATH!!: 'C:\Program Files\TortoiseSVN\bin'
+2015-10-07 18:34:42.0651|INFO|thread: 5|StartupLogging| ----------------------------------------------------
+2015-10-07 18:34:42.0651|INFO|thread: 5|StartupLogging| PATH: C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files (x86)\Kaspersky Lab\Kaspersky Endpoint Security 10 for Windows\;C:\Program Files\TortoiseSVN\bin
+2015-10-07 18:34:42.1275|INFO|thread: 5|StartupLogger|Proxy information: (None)
+2015-10-07 18:34:42.1275|INFO|thread: 5|StartupLogger|Couldn't fetch creds for proxy
+2015-10-07 18:34:42.1431|INFO|thread: 8|HardwareRenderingHelper|Making a WMI query to discover any video PNPID entries
+2015-10-07 18:34:42.2679|INFO|thread: 5|ShortcutManager|Shortcut 'C:\Users\linatec\AppData\Local\GitHub\GitHub.appref-ms' missing. Assuming a first run.
+2015-10-07 18:34:42.2679|INFO|thread: 5|ShortcutManager|Copying the Start Menu shortcut 'C:\Users\linatec\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\GitHub, Inc\GitHub.appref-ms' to 'C:\Users\linatec\AppData\Local\GitHub\GitHub.appref-ms'
+2015-10-07 18:34:42.3771|INFO|thread: 5|ShortcutManager|Saving the Git Shell shortcut C:\Users\linatec\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\GitHub, Inc\Git Shell.lnk
+2015-10-07 18:34:42.3927|INFO|thread: 5|ShortcutManager|Saving the Git Shell shortcut C:\Users\linatec\Desktop\Git Shell.lnk
+2015-10-07 18:34:42.5019|INFO|thread: 1|HardwareRenderingHelper|Your video card appears to support hardware rendering. If this isn't the case and you see glitches
+2015-10-07 18:34:42.5019|INFO|thread: 1|HardwareRenderingHelper|set the GH_FORCE_SW_RENDERING environment variable to 1
+2015-10-07 18:34:42.5175|INFO|thread: 5|ProcessWrapper|Starting: Process - FileName: 'C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094\7za.exe', Args: 'x -y "-oC:\Users\linatec\AppData\Local\GitHub\z0fu0snt.zex.deleteme" "C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094\PortableGit.7z"', Working Directory: 
+2015-10-07 18:34:42.6111|INFO|thread: 5|PortablePackageManager|Extracting PortableGit.7z is (so far) successful
+2015-10-07 18:34:43.3599|INFO|thread: 1|ProcessWrapper|Starting: Process - FileName: 'C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094\7za.exe', Args: 'x -y "-oC:\Users\linatec\AppData\Local\GitHub\weohmkzm.q01.deleteme" "C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094\tutorial.7z"', Working Directory: 
+2015-10-07 18:34:43.4067|INFO|thread: 1|PortablePackageManager|Extracting tutorial.7z is (so far) successful
+2015-10-07 18:34:43.4223|INFO|thread: 1|App|Checking whether application is network deployed.
+2015-10-07 18:34:43.5315|INFO|thread: 1|ClickOnceAppIconHelper|Updating registry with our application icon 'C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094\Images\App.ico'
+2015-10-07 18:34:44.2667|INFO|thread:16|PortablePackageManager|Extracted package successfully: tutorial.7z
+2015-10-07 18:34:46.0481|INFO|thread: 1|ReactiveScreen|Activating GitHub.ViewModels.ShellViewModel.
+2015-10-07 18:34:46.0481|INFO|thread: 1|ReactiveScreen|Activating GitHub.ViewModels.DashboardViewModel.
+2015-10-07 18:34:47.6237|INFO|thread: 1|ProcessWrapper|Starting: Process - FileName: 'C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094\7za.exe', Args: 'x -y "-oC:\Users\linatec\AppData\Local\GitHub\irnigxpy.tyv.deleteme" "C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094\gitignore.7z"', Working Directory: 
+2015-10-07 18:34:47.6549|INFO|thread: 1|PortablePackageManager|Extracting gitignore.7z is (so far) successful
+2015-10-07 18:34:47.9669|INFO|thread: 4|PortablePackageManager|Extracted package successfully: gitignore.7z
+2015-10-07 18:34:48.5909|INFO|thread:17|DashboardViewModel|Selected repository '/Tutorial'
+2015-10-07 18:34:48.6377|INFO|thread:17|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 1:GitClient.cs:663
+2015-10-07 18:34:48.6377|INFO|thread:17|AsyncReaderWriterLock|Acquiring exclusive scheduler for operation: 2:GitClient.cs:641
+2015-10-07 18:34:49.5189|WARN|thread:16|LoginCache|Could not get login for host 'GitHub.HostAddress'
+System.Collections.Generic.KeyNotFoundException: The given key 'login:null' was not present in the cache.
+2015-10-07 18:34:49.5189|INFO|thread:16|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 1:GitClient.cs:663 after waiting 0.890583s
+2015-10-07 18:34:50.5565|INFO|thread:22|AsyncReaderWriterLock|Released concurrent scheduler for operation: 1:GitClient.cs:663 after blocking 1.0263916s
+2015-10-07 18:34:50.5565|INFO|thread:16|AsyncReaderWriterLock|Acquired exclusive scheduler for operation: 2:GitClient.cs:641 after waiting 1.92221s
+2015-10-07 18:34:51.8045|INFO|thread:16|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 3:GitClient.cs:222
+2015-10-07 18:34:51.8045|INFO|thread:16|DashboardViewModel|Took 3181ms to Create RepositoryViewModel for location C:\Users\linatec\AppData\Local\GitHub\TutorialRepository_fdbf2020839cde135ff9dbed7d503f8e03fa3ab4\new-repo
+2015-10-07 18:34:51.8045|INFO|thread:16|AsyncReaderWriterLock|Released exclusive scheduler for operation: 2:GitClient.cs:641 after blocking 1.2440622s
+2015-10-07 18:34:51.8981|INFO|thread:16|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 3:GitClient.cs:222 after waiting 0.104399s
+2015-10-07 18:34:51.9137|INFO|thread:16|GitClient|Loading commits for repo: C:\Users\linatec\AppData\Local\GitHub\TutorialRepository_fdbf2020839cde135ff9dbed7d503f8e03fa3ab4\new-repo
+2015-10-07 18:34:52.0385|INFO|thread:16|ConcurrentRepositoryConnection|Loaded '1' commits for repo: C:\Users\linatec\AppData\Local\GitHub\TutorialRepository_fdbf2020839cde135ff9dbed7d503f8e03fa3ab4\new-repo\.
+2015-10-07 18:34:52.0541|INFO|thread:16|AsyncReaderWriterLock|Released concurrent scheduler for operation: 3:GitClient.cs:222 after blocking 0.1465234s
+2015-10-07 18:34:53.3957|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 4:GitClient.cs:646
+2015-10-07 18:34:53.3957|INFO|thread: 8|PortablePackageManager|Extracted package successfully: PortableGit.7z
+2015-10-07 18:34:53.5049|INFO|thread: 8|MsysGitCertificateInstaller|Generated certificate cache with 162 certificates
+2015-10-07 18:34:53.5049|INFO|thread: 8|MsysGitCertificateInstaller|Created certificate bundle with 166 entries
+2015-10-07 18:34:53.5205|INFO|thread: 5|StartupSequence|Took 11111ms to Update certificate bundle from system store
+2015-10-07 18:34:53.5361|INFO|thread: 8|ProcessWrapper|Starting: Process - FileName: 'C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094\7za.exe', Args: 'x -y "-oC:\Users\linatec\AppData\Local\GitHub\x0o4mby2.4ul.deleteme" "C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094\lfs-amd64.7z"', Working Directory: 
+2015-10-07 18:34:53.5829|INFO|thread: 8|PortablePackageManager|Extracting lfs-amd64.7z is (so far) successful
+2015-10-07 18:34:53.5985|INFO|thread:25|SoftwareUpdateViewModel|Checking for new version
+2015-10-07 18:34:53.8481|INFO|thread:16|PortablePackageManager|Extracted package successfully: lfs-amd64.7z
+2015-10-07 18:34:54.1913|INFO|thread: 1|GitClient|Installing git lfs filters
+2015-10-07 18:34:54.2225|INFO|thread: 1|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2015-10-07 18:34:54.2225|INFO|thread: 1|GitEnvironment|PATH is C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094;C:\Users\linatec\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-10-07 18:34:54.2225|INFO|thread: 1|ProcessWrapper|Starting: Process - FileName: 'C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'lfs init --force ', Working Directory: C:\Users\linatec\AppData\Local\Temp\
+2015-10-07 18:35:19.4982|WARN|thread: 1|RepositoryHost|Got an authorization exception: Bad credentials
+Octokit.AuthorizationException: Bad credentials
+   於 Octokit.Connection.HandleErrors(IResponse response)
+   於 Octokit.Connection.<RunRequest>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   於 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 Octokit.Connection.<Run>d__23`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   於 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   於 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   於 Octokit.ApiConnection.<Get>d__0`1.MoveNext()
+2015-10-07 18:35:19.5138|INFO|thread: 1|RepositoryHost|Log in from cache for login '(null)' to host 'https://api.github.com/' FAILED
+2015-10-07 18:35:20.7672|INFO|thread: 4|GitHubShellSetupHelper|Wrote GitHubShell setup script here 'C:\Users\linatec\AppData\Local\GitHub\shell.ps1'
+2015-10-07 18:35:20.7672|INFO|thread: 4|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 5:GitClient.cs:658
+2015-10-07 18:35:20.7942|INFO|thread: 4|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 6:GitClient.cs:199
+2015-10-07 18:35:20.7942|INFO|thread: 4|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 7:RepositoryModel.cs:596
+2015-10-07 18:35:20.9842|ERROR|thread:18|ComparisonGraph|JavaScript Alert from the comparison graph: http://github-app/: TypeError: Cannot read property 'selectCommit' of null
+2015-10-07 18:35:53.7161|INFO|thread:22|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 8:RepositoryModel.cs:596
+2015-10-07 18:37:15.3898|WARN|thread:18|TutorialPopup|Error Aborted loading url https://guides.github.com/introduction/flow/: 
+2015-10-07 18:37:21.9262|ERROR|thread:18|ComparisonGraph|JavaScript Alert from the comparison graph: http://github-app/: TypeError: Cannot read property 'selectCommit' of null
+2015-10-07 18:37:23.2032|ERROR|thread:18|ComparisonGraph|JavaScript Alert from the comparison graph: http://github-app/: TypeError: Cannot read property 'selectCommit' of null
+2015-10-07 18:37:26.2694|INFO|thread:27|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 9:RepositoryModel.cs:596
+2015-10-07 18:37:35.0369|INFO|thread: 1|ReactiveScreen|Activating GitHub.ViewModels.RepositoryOptionsViewModel.
+2015-10-07 18:37:35.0519|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 10:GitClient.cs:185
+2015-10-07 18:37:40.6022|INFO|thread: 1|AsyncReaderWriterLock|Acquiring exclusive scheduler for operation: 11:GitClient.cs:322
+2015-10-07 18:38:04.7646|INFO|thread: 1|ReactiveScreen|Deactivating GitHub.ViewModels.RepositoryOptionsViewModel.
+2015-10-07 18:38:04.7646|INFO|thread: 1|ReactiveScreen|Closed GitHub.ViewModels.RepositoryOptionsViewModel.
+2015-10-07 18:38:21.5626|INFO|thread: 1|RepositoryModel|Creating and initializing new local repository here 'C:\Users\linatec\Documents\GitHub\GitHub'
+2015-10-07 18:38:21.6766|INFO|thread:27|AsyncReaderWriterLock|Acquiring exclusive scheduler for operation: 12:RepositoryModel.cs:1342
+2015-10-07 18:38:21.6766|INFO|thread:10|AsyncReaderWriterLock|Acquired exclusive scheduler for operation: 12:RepositoryModel.cs:1342 after waiting 0.0011837s
+2015-10-07 18:38:21.7076|INFO|thread:27|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2015-10-07 18:38:21.7076|INFO|thread:27|GitEnvironment|PATH is C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094;C:\Users\linatec\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-10-07 18:38:21.7076|INFO|thread:27|ProcessWrapper|Starting: Process - FileName: 'C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "C:\Users\linatec\Documents\GitHub\GitHub\.gitattributes" ', Working Directory: C:\Users\linatec\Documents\GitHub\GitHub\
+2015-10-07 18:38:22.1786|INFO|thread:22|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2015-10-07 18:38:22.1786|INFO|thread:22|GitEnvironment|PATH is C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094;C:\Users\linatec\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-10-07 18:38:22.1786|INFO|thread:22|ProcessWrapper|Starting: Process - FileName: 'C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'add --all "C:\Users\linatec\Documents\GitHub\GitHub\.gitignore" ', Working Directory: C:\Users\linatec\Documents\GitHub\GitHub\
+2015-10-07 18:38:22.4016|INFO|thread:16|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2015-10-07 18:38:22.4016|INFO|thread:16|GitEnvironment|PATH is C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094;C:\Users\linatec\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-10-07 18:38:22.4016|INFO|thread:16|ProcessWrapper|Starting: Process - FileName: 'C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'commit -F "C:\Users\linatec\AppData\Local\Temp\e578b66c-9504-498f-982c-eb1c3dda0f07" ', Working Directory: C:\Users\linatec\Documents\GitHub\GitHub\
+2015-10-07 18:38:22.6896|INFO|thread: 5|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 13:RepositoryModel.cs:596
+2015-10-07 18:38:22.6896|INFO|thread: 5|AsyncReaderWriterLock|Released exclusive scheduler for operation: 12:RepositoryModel.cs:1342 after blocking 1.0129109s
+2015-10-07 18:38:22.6896|INFO|thread:16|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 13:RepositoryModel.cs:596 after waiting 0.0019509s
+2015-10-07 18:38:22.6936|INFO|thread: 5|RepositoryModel|Created repository sucessfully: 'C:\Users\linatec\Documents\GitHub\GitHub'
+2015-10-07 18:38:22.7286|INFO|thread:17|DashboardViewModel|Selected repository ''
+2015-10-07 18:38:22.7286|INFO|thread:16|AsyncReaderWriterLock|Released concurrent scheduler for operation: 13:RepositoryModel.cs:596 after blocking 0.0370036s
+2015-10-07 18:38:22.7286|INFO|thread:17|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 14:GitClient.cs:663
+2015-10-07 18:38:22.7286|INFO|thread:27|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 14:GitClient.cs:663 after waiting 4.23E-05s
+2015-10-07 18:38:22.7286|INFO|thread:17|AsyncReaderWriterLock|Acquiring exclusive scheduler for operation: 15:GitClient.cs:641
+2015-10-07 18:38:22.7286|INFO|thread:23|AsyncReaderWriterLock|Released concurrent scheduler for operation: 14:GitClient.cs:663 after blocking 0.0085471s
+2015-10-07 18:38:22.7286|INFO|thread:27|AsyncReaderWriterLock|Acquired exclusive scheduler for operation: 15:GitClient.cs:641 after waiting 0.0085771s
+2015-10-07 18:38:22.8416|INFO|thread:27|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 16:BranchesViewModel.cs:543
+2015-10-07 18:38:23.0007|INFO|thread:27|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 17:GitClient.cs:658
+2015-10-07 18:38:23.0367|INFO|thread:27|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 18:GitClient.cs:222
+2015-10-07 18:38:23.0367|INFO|thread:27|DashboardViewModel|Took 307ms to Create RepositoryViewModel for location C:\Users\linatec\Documents\GitHub\GitHub
+2015-10-07 18:38:23.0367|INFO|thread:27|AsyncReaderWriterLock|Released exclusive scheduler for operation: 15:GitClient.cs:641 after blocking 0.2983992s
+2015-10-07 18:38:23.0367|INFO|thread:10|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 18:GitClient.cs:222 after waiting 0.0006498s
+2015-10-07 18:38:23.0367|INFO|thread:16|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 16:BranchesViewModel.cs:543 after waiting 0.1961378s
+2015-10-07 18:38:23.0367|INFO|thread: 5|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 17:GitClient.cs:658 after waiting 0.0374529s
+2015-10-07 18:38:23.0367|INFO|thread:10|GitClient|Loading commits for repo: C:\Users\linatec\Documents\GitHub\GitHub
+2015-10-07 18:38:23.0367|INFO|thread:10|ConcurrentRepositoryConnection|Loaded '1' commits for repo: C:\Users\linatec\Documents\GitHub\GitHub\.
+2015-10-07 18:38:23.0367|INFO|thread:10|AsyncReaderWriterLock|Released concurrent scheduler for operation: 18:GitClient.cs:222 after blocking 0.0112699s
+2015-10-07 18:38:23.0787|INFO|thread:16|AsyncReaderWriterLock|Released concurrent scheduler for operation: 16:BranchesViewModel.cs:543 after blocking 0.0404417s
+2015-10-07 18:38:23.1407|INFO|thread: 5|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 19:RepositoryViewModel.cs:325
+2015-10-07 18:38:23.1407|INFO|thread:16|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 19:RepositoryViewModel.cs:325 after waiting 0.002894s
+2015-10-07 18:38:23.1457|INFO|thread: 5|AsyncReaderWriterLock|Released concurrent scheduler for operation: 17:GitClient.cs:658 after blocking 0.1076919s
+2015-10-07 18:38:23.2117|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 20:GitClient.cs:199
+2015-10-07 18:38:23.2117|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 21:RepositoryModel.cs:596
+2015-10-07 18:38:23.2117|INFO|thread:22|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 22:RepositoryModel.cs:596
+2015-10-07 18:38:23.2117|INFO|thread:22|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 20:GitClient.cs:199 after waiting 0.0092527s
+2015-10-07 18:38:23.2407|INFO|thread:27|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 21:RepositoryModel.cs:596 after waiting 0.0277686s
+2015-10-07 18:38:23.2407|INFO|thread: 5|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 22:RepositoryModel.cs:596 after waiting 0.0216313s
+2015-10-07 18:38:23.2687|INFO|thread:10|AsyncReaderWriterLock|Released concurrent scheduler for operation: 20:GitClient.cs:199 after blocking 0.0473516s
+2015-10-07 18:38:23.2807|INFO|thread: 5|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 23:GitClient.cs:288
+2015-10-07 18:38:23.2807|INFO|thread:25|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 23:GitClient.cs:288 after waiting 0.0006036s
+2015-10-07 18:38:23.2967|INFO|thread: 4|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2015-10-07 18:38:23.2967|INFO|thread: 4|GitEnvironment|PATH is C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094;C:\Users\linatec\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-10-07 18:38:23.2967|INFO|thread: 4|ProcessWrapper|Starting: Process - FileName: 'C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\Users\linatec\Documents\GitHub\GitHub\
+2015-10-07 18:38:23.2967|INFO|thread: 5|AsyncReaderWriterLock|Released concurrent scheduler for operation: 22:RepositoryModel.cs:596 after blocking 0.0588717s
+2015-10-07 18:38:23.2967|INFO|thread: 8|AsyncReaderWriterLock|Released concurrent scheduler for operation: 21:RepositoryModel.cs:596 after blocking 0.0589595s
+2015-10-07 18:38:23.3807|INFO|thread:23|AsyncReaderWriterLock|Released concurrent scheduler for operation: 19:RepositoryViewModel.cs:325 after blocking 0.2369541s
+2015-10-07 18:38:23.4687|INFO|thread:24|ConcurrentRepositoryConnection|Took 92ms to git status
+2015-10-07 18:38:23.4687|INFO|thread:24|ConcurrentRepositoryConnection|Took 95ms to git status and parse output
+2015-10-07 18:38:23.4807|INFO|thread:24|NewCommitViewModel|Took 201ms to load files for C:\Users\linatec\Documents\GitHub\GitHub
+2015-10-07 18:38:23.4807|INFO|thread:24|AsyncReaderWriterLock|Released concurrent scheduler for operation: 23:GitClient.cs:288 after blocking 0.1999604s
+2015-10-07 18:38:23.5017|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 24:BranchSynchronizer.cs:126
+2015-10-07 18:38:23.5017|INFO|thread:22|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 24:BranchSynchronizer.cs:126 after waiting 0.0020621s
+2015-10-07 18:38:23.5057|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 25:GitClient.cs:646
+2015-10-07 18:38:23.5057|INFO|thread:10|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 25:GitClient.cs:646 after waiting 3.04E-05s
+2015-10-07 18:38:23.5057|INFO|thread:34|AsyncReaderWriterLock|Released concurrent scheduler for operation: 25:GitClient.cs:646 after blocking 0.0083022s
+2015-10-07 18:38:23.5377|INFO|thread: 8|ConcurrentRepositoryConnection|branch stats: remote not found for master
+2015-10-07 18:38:23.5377|INFO|thread: 8|AsyncReaderWriterLock|Released concurrent scheduler for operation: 24:BranchSynchronizer.cs:126 after blocking 0.0432068s
+2015-10-07 18:38:23.9807|INFO|thread: 1|NewCommitViewModel|Took 500ms to render file list for C:\Users\linatec\Documents\GitHub\GitHub
+2015-10-07 18:38:23.9807|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 26:RepositoryViewModel.cs:325
+2015-10-07 18:38:23.9807|INFO|thread:35|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 26:RepositoryViewModel.cs:325 after waiting 8.43E-05s
+2015-10-07 18:38:23.9807|INFO|thread: 1|AsyncReaderWriterLock|Released concurrent scheduler for operation: 26:RepositoryViewModel.cs:325 after blocking 0.0001678s
+2015-10-07 18:38:23.9877|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 27:RepositoryViewModel.cs:325
+2015-10-07 18:38:23.9877|INFO|thread:27|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 27:RepositoryViewModel.cs:325 after waiting 2.92E-05s
+2015-10-07 18:38:24.0137|INFO|thread:24|AsyncReaderWriterLock|Released concurrent scheduler for operation: 27:RepositoryViewModel.cs:325 after blocking 0.0265729s
+2015-10-07 18:38:26.7209|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 28:GitClient.cs:403
+2015-10-07 18:38:26.7209|INFO|thread:21|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 28:GitClient.cs:403 after waiting 0.0012122s
+2015-10-07 18:38:26.7209|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 29:GitClient.cs:403
+2015-10-07 18:38:26.7209|INFO|thread:24|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 29:GitClient.cs:403 after waiting 0.0020402s
+2015-10-07 18:38:26.7399|INFO|thread:34|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2015-10-07 18:38:26.7399|INFO|thread:34|GitEnvironment|PATH is C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094;C:\Users\linatec\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-10-07 18:38:26.7399|INFO|thread:34|ProcessWrapper|Starting: Process - FileName: 'C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'diff-tree --root -m -r -z --name-status 0b50cfbf0f816c0cc84b7e5b387471f48c313e0a ', Working Directory: C:\Users\linatec\Documents\GitHub\GitHub\
+2015-10-07 18:38:26.7399|INFO|thread:16|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2015-10-07 18:38:26.7399|INFO|thread:16|GitEnvironment|PATH is C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094;C:\Users\linatec\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-10-07 18:38:26.7399|INFO|thread:16|ProcessWrapper|Starting: Process - FileName: 'C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'diff-tree --root -m -r -z --name-status 0b50cfbf0f816c0cc84b7e5b387471f48c313e0a ', Working Directory: C:\Users\linatec\Documents\GitHub\GitHub\
+2015-10-07 18:38:26.8399|INFO|thread:34|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2015-10-07 18:38:26.8399|INFO|thread:34|GitEnvironment|PATH is C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094;C:\Users\linatec\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-10-07 18:38:26.8399|INFO|thread:34|ProcessWrapper|Starting: Process - FileName: 'C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'diff-tree --root -m -r -z --numstat 0b50cfbf0f816c0cc84b7e5b387471f48c313e0a ', Working Directory: C:\Users\linatec\Documents\GitHub\GitHub\
+2015-10-07 18:38:26.9849|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 30:ICommittedFileForklift.cs:59
+2015-10-07 18:38:26.9849|INFO|thread:16|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2015-10-07 18:38:26.9849|INFO|thread:16|GitEnvironment|PATH is C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094;C:\Users\linatec\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-10-07 18:38:26.9849|INFO|thread:16|ProcessWrapper|Starting: Process - FileName: 'C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'diff-tree --root -m -r -z --numstat 0b50cfbf0f816c0cc84b7e5b387471f48c313e0a ', Working Directory: C:\Users\linatec\Documents\GitHub\GitHub\
+2015-10-07 18:38:27.0109|INFO|thread: 4|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 30:ICommittedFileForklift.cs:59 after waiting 0.0258773s
+2015-10-07 18:38:27.1569|INFO|thread:10|AsyncReaderWriterLock|Released concurrent scheduler for operation: 30:ICommittedFileForklift.cs:59 after blocking 0.1464002s
+2015-10-07 18:38:27.2999|INFO|thread:34|AsyncReaderWriterLock|Released concurrent scheduler for operation: 28:GitClient.cs:403 after blocking 0.5776421s
+2015-10-07 18:38:27.2999|INFO|thread: 1|SelectedCommitViewModel|Took 595ms to load files for commit 0b50cfb in repo C:\Users\linatec\Documents\GitHub\GitHub
+2015-10-07 18:38:27.2999|INFO|thread:16|AsyncReaderWriterLock|Released concurrent scheduler for operation: 29:GitClient.cs:403 after blocking 0.5741621s
+2015-10-07 18:38:28.2800|INFO|thread: 1|SelectedCommitViewModel|Took 1552ms to load files for commit 0b50cfb in repo C:\Users\linatec\Documents\GitHub\GitHub
+2015-10-07 18:38:34.7093|INFO|thread:10|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 31:GitClient.cs:211
+2015-10-07 18:38:34.7093|INFO|thread:16|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 31:GitClient.cs:211 after waiting 0.0001743s
+2015-10-07 18:38:34.7093|INFO|thread:10|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 32:GitClient.cs:134
+2015-10-07 18:38:34.7093|INFO|thread:24|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 32:GitClient.cs:134 after waiting 5E-05s
+2015-10-07 18:38:34.7283|INFO|thread:10|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2015-10-07 18:38:34.7283|INFO|thread:10|GitEnvironment|PATH is C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094;C:\Users\linatec\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-10-07 18:38:34.7283|INFO|thread:10|ProcessWrapper|Starting: Process - FileName: 'C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'log -g --abbrev-commit --pretty=oneline HEAD -n 2500 ', Working Directory: C:\Users\linatec\Documents\GitHub\GitHub\
+2015-10-07 18:38:34.7283|INFO|thread:23|AsyncReaderWriterLock|Released concurrent scheduler for operation: 31:GitClient.cs:211 after blocking 0.0231268s
+2015-10-07 18:38:34.8893|INFO|thread: 4|AsyncReaderWriterLock|Released concurrent scheduler for operation: 32:GitClient.cs:134 after blocking 0.1767434s
+2015-10-07 18:38:41.3707|INFO|thread:17|DashboardViewModel|Selected repository '/Tutorial'
+2015-10-07 18:38:41.3707|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 33:RepositoryModel.cs:596
+2015-10-07 18:38:41.5647|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 34:GitClient.cs:646
+2015-10-07 18:38:41.8967|ERROR|thread:18|ComparisonGraph|JavaScript Alert from the comparison graph: http://github-app/: TypeError: Cannot read property 'selectCommit' of null
+2015-10-07 18:38:51.3863|INFO|thread: 1|ReactiveScreen|Activating GitHub.ViewModels.OptionsViewModel.
+2015-10-07 18:38:57.3656|INFO|thread: 5|GitConfig|Saving global git configuration for user.name and user.email
+2015-10-07 18:38:57.3796|INFO|thread: 1|ReactiveScreen|Deactivating GitHub.ViewModels.OptionsViewModel.
+2015-10-07 18:38:57.5036|INFO|thread: 1|ReactiveScreen|Activating GitHub.ViewModels.ScanViewModel.
+2015-10-07 18:39:00.3268|INFO|thread: 1|ReactiveScreen|Deactivating GitHub.ViewModels.ScanViewModel.
+2015-10-07 18:39:00.3268|INFO|thread: 1|ReactiveScreen|Activating GitHub.ViewModels.OptionsViewModel.
+2015-10-07 18:39:00.3798|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 35:RepositoryModel.cs:1452
+2015-10-07 18:39:00.3798|INFO|thread: 4|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 35:RepositoryModel.cs:1452 after waiting 0.0002021s
+2015-10-07 18:39:00.4158|INFO|thread:33|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 36:GitClient.cs:646
+2015-10-07 18:39:00.4158|INFO|thread:33|AsyncReaderWriterLock|Released concurrent scheduler for operation: 35:RepositoryModel.cs:1452 after blocking 0.0353164s
+2015-10-07 18:39:00.4158|INFO|thread:33|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 36:GitClient.cs:646 after waiting 0.0007063s
+2015-10-07 18:39:00.4158|INFO|thread:33|AsyncReaderWriterLock|Released concurrent scheduler for operation: 36:GitClient.cs:646 after blocking 0.0066493s
+2015-10-07 18:39:00.4618|INFO|thread:17|DashboardViewModel|Selected repository 'linatec/GitHub'
+2015-10-07 18:39:00.4618|INFO|thread:17|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 37:GitClient.cs:663
+2015-10-07 18:39:00.4618|INFO|thread:17|AsyncReaderWriterLock|Acquiring exclusive scheduler for operation: 38:GitClient.cs:641
+2015-10-07 18:39:00.4618|INFO|thread:24|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 37:GitClient.cs:663 after waiting 0.0003333s
+2015-10-07 18:39:00.4618|INFO|thread:23|AsyncReaderWriterLock|Released concurrent scheduler for operation: 37:GitClient.cs:663 after blocking 0.006354s
+2015-10-07 18:39:00.4618|INFO|thread:24|AsyncReaderWriterLock|Acquired exclusive scheduler for operation: 38:GitClient.cs:641 after waiting 0.0068413s
+2015-10-07 18:39:00.7368|INFO|thread:24|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 39:GitClient.cs:658
+2015-10-07 18:39:00.7898|INFO|thread:24|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 40:GitClient.cs:222
+2015-10-07 18:39:00.7898|INFO|thread:24|DashboardViewModel|Took 328ms to Create RepositoryViewModel for location C:\Users\linatec\Documents\GitHub
+2015-10-07 18:39:00.7898|INFO|thread:24|AsyncReaderWriterLock|Released exclusive scheduler for operation: 38:GitClient.cs:641 after blocking 0.3189115s
+2015-10-07 18:39:00.7898|INFO|thread:27|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 39:GitClient.cs:658 after waiting 0.0536317s
+2015-10-07 18:39:00.8078|INFO|thread:27|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 41:RepositoryViewModel.cs:325
+2015-10-07 18:39:00.8078|INFO|thread:27|AsyncReaderWriterLock|Released concurrent scheduler for operation: 39:GitClient.cs:658 after blocking 0.0180578s
+2015-10-07 18:39:00.8078|INFO|thread:27|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 40:GitClient.cs:222 after waiting 0.0187568s
+2015-10-07 18:39:00.8078|INFO|thread:27|GitClient|Loading commits for repo: C:\Users\linatec\Documents\GitHub
+2015-10-07 18:39:00.8078|INFO|thread:24|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 41:RepositoryViewModel.cs:325 after waiting 0.007197s
+2015-10-07 18:39:00.8408|INFO|thread:21|AsyncReaderWriterLock|Released concurrent scheduler for operation: 41:RepositoryViewModel.cs:325 after blocking 0.0256922s
+2015-10-07 18:39:00.8408|INFO|thread:27|ConcurrentRepositoryConnection|Loaded '1' commits for repo: C:\Users\linatec\Documents\GitHub\.
+2015-10-07 18:39:00.8408|INFO|thread:27|AsyncReaderWriterLock|Released concurrent scheduler for operation: 40:GitClient.cs:222 after blocking 0.0410934s
+2015-10-07 18:39:00.9048|INFO|thread:21|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 42:GitClient.cs:199
+2015-10-07 18:39:00.9048|INFO|thread: 5|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 42:GitClient.cs:199 after waiting 4.77E-05s
+2015-10-07 18:39:00.9048|INFO|thread:21|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 43:RepositoryModel.cs:596
+2015-10-07 18:39:00.9048|INFO|thread:21|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 43:RepositoryModel.cs:596 after waiting 0.0009558s
+2015-10-07 18:39:00.9178|INFO|thread:21|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 44:GitClient.cs:288
+2015-10-07 18:39:00.9178|INFO|thread:21|AsyncReaderWriterLock|Released concurrent scheduler for operation: 43:RepositoryModel.cs:596 after blocking 0.0125025s
+2015-10-07 18:39:00.9178|INFO|thread:21|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 44:GitClient.cs:288 after waiting 0.0003687s
+2015-10-07 18:39:00.9178|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 45:RepositoryModel.cs:596
+2015-10-07 18:39:00.9178|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 46:BranchesViewModel.cs:543
+2015-10-07 18:39:00.9178|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 47:RepositoryViewModel.cs:325
+2015-10-07 18:39:00.9318|INFO|thread:25|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2015-10-07 18:39:00.9318|INFO|thread:25|GitEnvironment|PATH is C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094;C:\Users\linatec\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-10-07 18:39:00.9318|INFO|thread:25|ProcessWrapper|Starting: Process - FileName: 'C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\Users\linatec\Documents\GitHub\
+2015-10-07 18:39:00.9318|INFO|thread:34|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 45:RepositoryModel.cs:596 after waiting 0.0152153s
+2015-10-07 18:39:00.9318|INFO|thread:34|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 46:BranchesViewModel.cs:543 after waiting 0.0223781s
+2015-10-07 18:39:00.9318|INFO|thread: 4|AsyncReaderWriterLock|Released concurrent scheduler for operation: 45:RepositoryModel.cs:596 after blocking 0.0089409s
+2015-10-07 18:39:00.9318|INFO|thread: 4|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 47:RepositoryViewModel.cs:325 after waiting 0.0221267s
+2015-10-07 18:39:00.9638|INFO|thread:10|AsyncReaderWriterLock|Released concurrent scheduler for operation: 46:BranchesViewModel.cs:543 after blocking 0.020563s
+2015-10-07 18:39:00.9768|INFO|thread:24|AsyncReaderWriterLock|Released concurrent scheduler for operation: 47:RepositoryViewModel.cs:325 after blocking 0.0330467s
+2015-10-07 18:39:00.9768|INFO|thread:33|AsyncReaderWriterLock|Released concurrent scheduler for operation: 42:GitClient.cs:199 after blocking 0.0848303s
+2015-10-07 18:39:01.1728|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 48:GitClient.cs:646
+2015-10-07 18:39:01.1728|INFO|thread: 4|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 48:GitClient.cs:646 after waiting 5.54E-05s
+2015-10-07 18:39:01.1818|INFO|thread:35|AsyncReaderWriterLock|Released concurrent scheduler for operation: 48:GitClient.cs:646 after blocking 0.0084801s
+2015-10-07 18:39:01.1978|INFO|thread:16|ConcurrentRepositoryConnection|Took 125ms to git status
+2015-10-07 18:39:01.1978|INFO|thread:16|ConcurrentRepositoryConnection|Took 125ms to git status and parse output
+2015-10-07 18:39:01.2998|INFO|thread:16|NewCommitViewModel|Took 382ms to load files for C:\Users\linatec\Documents\GitHub
+2015-10-07 18:39:01.2998|INFO|thread:16|AsyncReaderWriterLock|Released concurrent scheduler for operation: 44:GitClient.cs:288 after blocking 0.3817556s
+2015-10-07 18:39:01.5229|INFO|thread: 1|NewCommitViewModel|Took 222ms to render file list for C:\Users\linatec\Documents\GitHub
+2015-10-07 18:39:01.5229|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 49:RepositoryViewModel.cs:325
+2015-10-07 18:39:01.5229|INFO|thread:10|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 49:RepositoryViewModel.cs:325 after waiting 8.54E-05s
+2015-10-07 18:39:01.5229|INFO|thread: 1|AsyncReaderWriterLock|Released concurrent scheduler for operation: 49:RepositoryViewModel.cs:325 after blocking 0.0001443s
+2015-10-07 18:39:01.5229|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 50:RepositoryViewModel.cs:325
+2015-10-07 18:39:01.5229|INFO|thread:21|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 50:RepositoryViewModel.cs:325 after waiting 2.96E-05s
+2015-10-07 18:39:01.6059|INFO|thread:10|AsyncReaderWriterLock|Released concurrent scheduler for operation: 50:RepositoryViewModel.cs:325 after blocking 0.0792231s
+2015-10-07 18:39:01.7709|INFO|thread:23|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 51:GitClient.cs:452
+2015-10-07 18:39:01.7719|INFO|thread: 4|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 51:GitClient.cs:452 after waiting 0.0005008s
+2015-10-07 18:39:01.8109|INFO|thread:23|AsyncReaderWriterLock|Released concurrent scheduler for operation: 51:GitClient.cs:452 after blocking 0.038729s
+2015-10-07 18:39:01.8779|INFO|thread:33|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 52:GitClient.cs:452
+2015-10-07 18:39:01.8779|INFO|thread:16|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 52:GitClient.cs:452 after waiting 6.54E-05s
+2015-10-07 18:39:01.9049|INFO|thread:16|AsyncReaderWriterLock|Released concurrent scheduler for operation: 52:GitClient.cs:452 after blocking 0.0264101s
+2015-10-07 18:39:03.6610|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 53:GitClient.cs:403
+2015-10-07 18:39:03.6610|INFO|thread:25|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 53:GitClient.cs:403 after waiting 0.0019971s
+2015-10-07 18:39:03.6610|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 54:GitClient.cs:403
+2015-10-07 18:39:03.6610|INFO|thread:34|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2015-10-07 18:39:03.6610|INFO|thread:34|GitEnvironment|PATH is C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094;C:\Users\linatec\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-10-07 18:39:03.6610|INFO|thread:34|ProcessWrapper|Starting: Process - FileName: 'C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'diff-tree --root -m -r -z --name-status a5c7e71c41cd611b32dd60ca8433118d7c6b4128 ', Working Directory: C:\Users\linatec\Documents\GitHub\
+2015-10-07 18:39:03.6760|INFO|thread: 5|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 54:GitClient.cs:403 after waiting 0.0125337s
+2015-10-07 18:39:03.6760|INFO|thread:33|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2015-10-07 18:39:03.6760|INFO|thread:33|GitEnvironment|PATH is C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094;C:\Users\linatec\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-10-07 18:39:03.6760|INFO|thread:33|ProcessWrapper|Starting: Process - FileName: 'C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'diff-tree --root -m -r -z --name-status a5c7e71c41cd611b32dd60ca8433118d7c6b4128 ', Working Directory: C:\Users\linatec\Documents\GitHub\
+2015-10-07 18:39:03.7420|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 55:ICommittedFileForklift.cs:59
+2015-10-07 18:39:03.7730|INFO|thread: 4|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 55:ICommittedFileForklift.cs:59 after waiting 0.0316682s
+2015-10-07 18:39:03.8190|INFO|thread:21|AsyncReaderWriterLock|Released concurrent scheduler for operation: 55:ICommittedFileForklift.cs:59 after blocking 0.0450996s
+2015-10-07 18:39:03.8880|INFO|thread:34|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2015-10-07 18:39:03.8880|INFO|thread:34|GitEnvironment|PATH is C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094;C:\Users\linatec\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-10-07 18:39:03.8880|INFO|thread:34|ProcessWrapper|Starting: Process - FileName: 'C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'diff-tree --root -m -r -z --numstat a5c7e71c41cd611b32dd60ca8433118d7c6b4128 ', Working Directory: C:\Users\linatec\Documents\GitHub\
+2015-10-07 18:39:04.0380|INFO|thread:33|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2015-10-07 18:39:04.0380|INFO|thread:33|GitEnvironment|PATH is C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094;C:\Users\linatec\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-10-07 18:39:04.0380|INFO|thread:33|ProcessWrapper|Starting: Process - FileName: 'C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'diff-tree --root -m -r -z --numstat a5c7e71c41cd611b32dd60ca8433118d7c6b4128 ', Working Directory: C:\Users\linatec\Documents\GitHub\
+2015-10-07 18:39:04.3480|INFO|thread:35|AsyncReaderWriterLock|Released concurrent scheduler for operation: 53:GitClient.cs:403 after blocking 0.6852216s
+2015-10-07 18:39:04.3480|INFO|thread: 1|SelectedCommitViewModel|Took 689ms to load files for commit a5c7e71 in repo C:\Users\linatec\Documents\GitHub
+2015-10-07 18:39:04.3480|INFO|thread: 8|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 56:GitClient.cs:532
+2015-10-07 18:39:04.3480|INFO|thread:40|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 56:GitClient.cs:532 after waiting 0.000122s
+2015-10-07 18:39:04.3780|INFO|thread: 8|AsyncReaderWriterLock|Released concurrent scheduler for operation: 56:GitClient.cs:532 after blocking 0.0221475s
+2015-10-07 18:39:04.4090|INFO|thread:22|AsyncReaderWriterLock|Released concurrent scheduler for operation: 54:GitClient.cs:403 after blocking 0.7324998s
+2015-10-07 18:39:04.4350|INFO|thread: 1|SelectedCommitViewModel|Took 772ms to load files for commit a5c7e71 in repo C:\Users\linatec\Documents\GitHub
+2015-10-07 18:39:04.4390|INFO|thread:16|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 57:GitClient.cs:532
+2015-10-07 18:39:04.4390|INFO|thread: 8|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 57:GitClient.cs:532 after waiting 4.96E-05s
+2015-10-07 18:39:04.4390|INFO|thread:25|AsyncReaderWriterLock|Released concurrent scheduler for operation: 57:GitClient.cs:532 after blocking 0.014967s
+2015-10-07 18:39:04.9301|INFO|thread:40|GitConfig|Saving global git configuration for user.name and user.email
+2015-10-07 18:39:04.9301|INFO|thread: 1|ReactiveScreen|Deactivating GitHub.ViewModels.OptionsViewModel.
+2015-10-07 18:39:04.9301|INFO|thread: 1|ReactiveScreen|Closed GitHub.ViewModels.OptionsViewModel.
+2015-10-07 18:39:13.6006|INFO|thread:35|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 58:GitClient.cs:532
+2015-10-07 18:39:13.6006|INFO|thread:35|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 58:GitClient.cs:532 after waiting 0.0001824s
+2015-10-07 18:39:13.6166|INFO|thread:35|AsyncReaderWriterLock|Released concurrent scheduler for operation: 58:GitClient.cs:532 after blocking 0.0151864s
+2015-10-07 18:39:21.7110|INFO|thread: 4|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 59:GitClient.cs:211
+2015-10-07 18:39:21.7110|INFO|thread: 4|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 60:GitClient.cs:134
+2015-10-07 18:39:21.7110|INFO|thread: 4|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 59:GitClient.cs:211 after waiting 0.0004696s
+2015-10-07 18:39:21.7110|INFO|thread:22|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 60:GitClient.cs:134 after waiting 0.0002544s
+2015-10-07 18:39:21.7110|INFO|thread:22|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2015-10-07 18:39:21.7110|INFO|thread:22|GitEnvironment|PATH is C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094;C:\Users\linatec\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-10-07 18:39:21.7240|INFO|thread:22|ProcessWrapper|Starting: Process - FileName: 'C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'log -g --abbrev-commit --pretty=oneline HEAD -n 2500 ', Working Directory: C:\Users\linatec\Documents\GitHub\
+2015-10-07 18:39:21.7240|INFO|thread:35|AsyncReaderWriterLock|Released concurrent scheduler for operation: 59:GitClient.cs:211 after blocking 0.0150112s
+2015-10-07 18:39:21.9150|INFO|thread:34|AsyncReaderWriterLock|Released concurrent scheduler for operation: 60:GitClient.cs:134 after blocking 0.2038453s
+2015-10-07 18:39:33.4597|INFO|thread:25|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 61:GitClient.cs:211
+2015-10-07 18:39:33.4597|INFO|thread:24|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 61:GitClient.cs:211 after waiting 4.04E-05s
+2015-10-07 18:39:33.4597|INFO|thread:25|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 62:GitClient.cs:134
+2015-10-07 18:39:33.4597|INFO|thread:25|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 62:GitClient.cs:134 after waiting 0.0001574s
+2015-10-07 18:39:33.4597|INFO|thread: 8|AsyncReaderWriterLock|Released concurrent scheduler for operation: 61:GitClient.cs:211 after blocking 0.0095048s
+2015-10-07 18:39:33.4707|INFO|thread:25|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2015-10-07 18:39:33.4707|INFO|thread:25|GitEnvironment|PATH is C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094;C:\Users\linatec\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-10-07 18:39:33.4707|INFO|thread:25|ProcessWrapper|Starting: Process - FileName: 'C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'log -g --abbrev-commit --pretty=oneline HEAD -n 2500 ', Working Directory: C:\Users\linatec\Documents\GitHub\
+2015-10-07 18:39:33.6627|INFO|thread:22|AsyncReaderWriterLock|Released concurrent scheduler for operation: 62:GitClient.cs:134 after blocking 0.2018959s
+2015-10-07 18:39:44.0933|INFO|thread: 1|ReactiveScreen|Activating GitHub.ViewModels.OptionsViewModel.
+2015-10-07 18:39:57.0370|INFO|thread: 5|GitConfig|Saving global git configuration for user.name and user.email
+2015-10-07 18:39:57.0370|INFO|thread: 1|ReactiveScreen|Deactivating GitHub.ViewModels.OptionsViewModel.
+2015-10-07 18:39:57.0370|INFO|thread: 1|ReactiveScreen|Closed GitHub.ViewModels.OptionsViewModel.
+2015-10-07 18:40:07.0656|INFO|thread:10|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 63:GitClient.cs:211
+2015-10-07 18:40:07.0656|INFO|thread: 5|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 63:GitClient.cs:211 after waiting 5.23E-05s
+2015-10-07 18:40:07.0656|INFO|thread:10|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 64:GitClient.cs:134
+2015-10-07 18:40:07.0656|INFO|thread:27|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 64:GitClient.cs:134 after waiting 2.96E-05s
+2015-10-07 18:40:07.0756|INFO|thread: 8|AsyncReaderWriterLock|Released concurrent scheduler for operation: 63:GitClient.cs:211 after blocking 0.0106281s
+2015-10-07 18:40:07.0756|INFO|thread:10|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2015-10-07 18:40:07.0756|INFO|thread:10|GitEnvironment|PATH is C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094;C:\Users\linatec\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-10-07 18:40:07.0756|INFO|thread:10|ProcessWrapper|Starting: Process - FileName: 'C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'log -g --abbrev-commit --pretty=oneline HEAD -n 2500 ', Working Directory: C:\Users\linatec\Documents\GitHub\
+2015-10-07 18:40:07.3416|INFO|thread:10|AsyncReaderWriterLock|Released concurrent scheduler for operation: 64:GitClient.cs:134 after blocking 0.2763999s
+2015-10-07 18:40:09.4247|INFO|thread:22|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 65:GitClient.cs:211
+2015-10-07 18:40:09.4247|INFO|thread:22|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 66:GitClient.cs:134
+2015-10-07 18:40:09.4247|INFO|thread:22|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 65:GitClient.cs:211 after waiting 0.0004311s
+2015-10-07 18:40:09.4247|INFO|thread:25|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 66:GitClient.cs:134 after waiting 0.000259s
+2015-10-07 18:40:09.4367|INFO|thread:25|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2015-10-07 18:40:09.4367|INFO|thread:25|GitEnvironment|PATH is C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094;C:\Users\linatec\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-10-07 18:40:09.4367|INFO|thread:25|ProcessWrapper|Starting: Process - FileName: 'C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'log -g --abbrev-commit --pretty=oneline HEAD -n 2500 ', Working Directory: C:\Users\linatec\Documents\GitHub\
+2015-10-07 18:40:09.4367|INFO|thread:16|AsyncReaderWriterLock|Released concurrent scheduler for operation: 65:GitClient.cs:211 after blocking 0.0125687s
+2015-10-07 18:40:09.6158|INFO|thread: 5|AsyncReaderWriterLock|Released concurrent scheduler for operation: 66:GitClient.cs:134 after blocking 0.1898873s
+2015-10-07 18:40:30.8980|INFO|thread: 1|AsyncReaderWriterLock|Acquiring exclusive scheduler for operation: 67:GitClient.cs:490
+2015-10-07 18:40:30.8980|INFO|thread:34|AsyncReaderWriterLock|Acquired exclusive scheduler for operation: 67:GitClient.cs:490 after waiting 4.34E-05s
+2015-10-07 18:40:30.9400|INFO|thread:21|AsyncReaderWriterLock|Released exclusive scheduler for operation: 67:GitClient.cs:490 after blocking 0.0424122s
+2015-10-07 18:40:30.9400|INFO|thread:21|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 68:RepositoryModel.cs:596
+2015-10-07 18:40:30.9400|INFO|thread: 4|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 68:RepositoryModel.cs:596 after waiting 0.000102s
+2015-10-07 18:40:30.9490|INFO|thread:40|AsyncReaderWriterLock|Released concurrent scheduler for operation: 68:RepositoryModel.cs:596 after blocking 0.0082064s
+2015-10-07 18:40:30.9490|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 69:RepositoryModel.cs:596
+2015-10-07 18:40:30.9730|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 70:RepositoryViewModel.cs:325
+2015-10-07 18:40:30.9730|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 71:BranchSynchronizer.cs:126
+2015-10-07 18:40:30.9980|INFO|thread: 5|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 69:RepositoryModel.cs:596 after waiting 0.0470221s
+2015-10-07 18:40:31.0060|INFO|thread:24|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 72:GitClient.cs:288
+2015-10-07 18:40:31.0060|INFO|thread:24|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 73:BranchSynchronizer.cs:126
+2015-10-07 18:40:31.0060|INFO|thread: 5|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 70:RepositoryViewModel.cs:325 after waiting 0.0341261s
+2015-10-07 18:40:31.0060|INFO|thread:24|AsyncReaderWriterLock|Released concurrent scheduler for operation: 69:RepositoryModel.cs:596 after blocking 0.0082899s
+2015-10-07 18:40:31.0060|INFO|thread:24|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 71:BranchSynchronizer.cs:126 after waiting 0.0335456s
+2015-10-07 18:40:31.0240|INFO|thread:34|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 72:GitClient.cs:288 after waiting 0.0171635s
+2015-10-07 18:40:31.0440|INFO|thread:27|AsyncReaderWriterLock|Released concurrent scheduler for operation: 71:BranchSynchronizer.cs:126 after blocking 0.0367442s
+2015-10-07 18:40:31.0440|INFO|thread:24|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 73:BranchSynchronizer.cs:126 after waiting 0.0373913s
+2015-10-07 18:40:31.0550|INFO|thread:24|AsyncReaderWriterLock|Released concurrent scheduler for operation: 73:BranchSynchronizer.cs:126 after blocking 0.0104984s
+2015-10-07 18:40:31.0550|WARN|thread:21|GetBranch`1|Could not resolve branch origin/master
+2015-10-07 18:40:31.0550|INFO|thread:21|AsyncReaderWriterLock|Released concurrent scheduler for operation: 70:RepositoryViewModel.cs:325 after blocking 0.0493545s
+2015-10-07 18:40:31.0960|INFO|thread:34|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2015-10-07 18:40:31.0960|INFO|thread:34|GitEnvironment|PATH is C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094;C:\Users\linatec\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-10-07 18:40:31.0960|INFO|thread:34|ProcessWrapper|Starting: Process - FileName: 'C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\Users\linatec\Documents\GitHub\
+2015-10-07 18:40:31.4320|INFO|thread:25|ConcurrentRepositoryConnection|Took 214ms to git status
+2015-10-07 18:40:31.4320|INFO|thread:25|ConcurrentRepositoryConnection|Took 214ms to git status and parse output
+2015-10-07 18:40:31.4960|INFO|thread:25|NewCommitViewModel|Took 477ms to load files for C:\Users\linatec\Documents\GitHub
+2015-10-07 18:40:31.4960|INFO|thread:25|AsyncReaderWriterLock|Released concurrent scheduler for operation: 72:GitClient.cs:288 after blocking 0.4723961s
+2015-10-07 18:40:31.5830|INFO|thread: 1|NewCommitViewModel|Took 99ms to render file list for C:\Users\linatec\Documents\GitHub
+2015-10-07 18:40:39.1344|INFO|thread:40|ProcessWrapper|Starting: Process - FileName: 'C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094\7za.exe', Args: 'x -y "-oC:\Users\linatec\AppData\Local\GitHub\a3cno4qg.b03.deleteme" "C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094\tutorial.7z"', Working Directory: 
+2015-10-07 18:40:39.1874|INFO|thread:40|PortablePackageManager|Extracting tutorial.7z is (so far) successful
+2015-10-07 18:40:39.3235|INFO|thread:24|PortablePackageManager|Extracted package successfully: tutorial.7z
+2015-10-07 18:40:39.3395|INFO|thread:17|DashboardViewModel|Selected repository '/Tutorial'
+2015-10-07 18:40:39.3395|INFO|thread:17|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 74:GitClient.cs:663
+2015-10-07 18:40:39.3395|INFO|thread:27|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 74:GitClient.cs:663 after waiting 4.88E-05s
+2015-10-07 18:40:39.3395|INFO|thread:17|AsyncReaderWriterLock|Acquiring exclusive scheduler for operation: 75:GitClient.cs:641
+2015-10-07 18:40:39.3595|INFO|thread:40|AsyncReaderWriterLock|Released concurrent scheduler for operation: 74:GitClient.cs:663 after blocking 0.0182468s
+2015-10-07 18:40:39.3595|INFO|thread:27|AsyncReaderWriterLock|Acquired exclusive scheduler for operation: 75:GitClient.cs:641 after waiting 0.0181066s
+2015-10-07 18:40:39.6235|INFO|thread:27|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 76:GitClient.cs:658
+2015-10-07 18:40:39.6845|INFO|thread:27|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 77:GitClient.cs:222
+2015-10-07 18:40:39.6845|INFO|thread:27|DashboardViewModel|Took 344ms to Create RepositoryViewModel for location C:\Users\linatec\AppData\Local\GitHub\TutorialRepository_fdbf2020839cde135ff9dbed7d503f8e03fa3ab4\new-repo
+2015-10-07 18:40:39.6845|INFO|thread:27|AsyncReaderWriterLock|Released exclusive scheduler for operation: 75:GitClient.cs:641 after blocking 0.325577s
+2015-10-07 18:40:39.6845|INFO|thread:27|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 76:GitClient.cs:658 after waiting 0.0610652s
+2015-10-07 18:40:39.6845|INFO|thread:34|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 77:GitClient.cs:222 after waiting 0.0007649s
+2015-10-07 18:40:39.6845|INFO|thread:34|GitClient|Loading commits for repo: C:\Users\linatec\AppData\Local\GitHub\TutorialRepository_fdbf2020839cde135ff9dbed7d503f8e03fa3ab4\new-repo
+2015-10-07 18:40:39.6965|INFO|thread:27|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 78:RepositoryViewModel.cs:325
+2015-10-07 18:40:39.6965|INFO|thread:35|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 78:RepositoryViewModel.cs:325 after waiting 5.69E-05s
+2015-10-07 18:40:39.6965|INFO|thread:27|AsyncReaderWriterLock|Released concurrent scheduler for operation: 76:GitClient.cs:658 after blocking 0.0139649s
+2015-10-07 18:40:39.7155|INFO|thread:34|ConcurrentRepositoryConnection|Loaded '1' commits for repo: C:\Users\linatec\AppData\Local\GitHub\TutorialRepository_fdbf2020839cde135ff9dbed7d503f8e03fa3ab4\new-repo\.
+2015-10-07 18:40:39.7155|INFO|thread:34|AsyncReaderWriterLock|Released concurrent scheduler for operation: 77:GitClient.cs:222 after blocking 0.0311897s
+2015-10-07 18:40:39.7155|INFO|thread:21|AsyncReaderWriterLock|Released concurrent scheduler for operation: 78:RepositoryViewModel.cs:325 after blocking 0.0202308s
+2015-10-07 18:40:39.8605|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 79:RepositoryModel.cs:596
+2015-10-07 18:40:39.8605|INFO|thread:27|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 79:RepositoryModel.cs:596 after waiting 0.0001451s
+2015-10-07 18:40:39.8735|INFO|thread:22|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 80:GitClient.cs:288
+2015-10-07 18:40:39.8735|INFO|thread:22|AsyncReaderWriterLock|Released concurrent scheduler for operation: 79:RepositoryModel.cs:596 after blocking 0.013262s
+2015-10-07 18:40:39.8735|INFO|thread:27|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 80:GitClient.cs:288 after waiting 0.000475s
+2015-10-07 18:40:39.8885|INFO|thread:22|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2015-10-07 18:40:39.8885|INFO|thread:22|GitEnvironment|PATH is C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094;C:\Users\linatec\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-10-07 18:40:39.8885|INFO|thread:22|ProcessWrapper|Starting: Process - FileName: 'C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\Users\linatec\AppData\Local\GitHub\TutorialRepository_fdbf2020839cde135ff9dbed7d503f8e03fa3ab4\new-repo\
+2015-10-07 18:40:39.9165|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 81:BranchesViewModel.cs:543
+2015-10-07 18:40:39.9165|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 82:RepositoryViewModel.cs:325
+2015-10-07 18:40:39.9165|INFO|thread:21|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 81:BranchesViewModel.cs:543 after waiting 0.0085271s
+2015-10-07 18:40:39.9165|INFO|thread: 5|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 82:RepositoryViewModel.cs:325 after waiting 0.0093382s
+2015-10-07 18:40:39.9505|INFO|thread:24|AsyncReaderWriterLock|Released concurrent scheduler for operation: 82:RepositoryViewModel.cs:325 after blocking 0.0238097s
+2015-10-07 18:40:39.9625|INFO|thread:16|AsyncReaderWriterLock|Released concurrent scheduler for operation: 81:BranchesViewModel.cs:543 after blocking 0.0373928s
+2015-10-07 18:40:40.1775|INFO|thread:34|ConcurrentRepositoryConnection|Took 179ms to git status
+2015-10-07 18:40:40.1775|INFO|thread:34|ConcurrentRepositoryConnection|Took 179ms to git status and parse output
+2015-10-07 18:40:40.1775|INFO|thread:34|NewCommitViewModel|Took 304ms to load files for C:\Users\linatec\AppData\Local\GitHub\TutorialRepository_fdbf2020839cde135ff9dbed7d503f8e03fa3ab4\new-repo
+2015-10-07 18:40:40.1775|INFO|thread:34|AsyncReaderWriterLock|Released concurrent scheduler for operation: 80:GitClient.cs:288 after blocking 0.3037609s
+2015-10-07 18:40:40.2495|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 83:GitClient.cs:646
+2015-10-07 18:40:40.2495|INFO|thread: 8|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 83:GitClient.cs:646 after waiting 5.38E-05s
+2015-10-07 18:40:40.2575|INFO|thread: 4|AsyncReaderWriterLock|Released concurrent scheduler for operation: 83:GitClient.cs:646 after blocking 0.0075015s
+2015-10-07 18:40:40.7115|INFO|thread: 1|NewCommitViewModel|Took 533ms to render file list for C:\Users\linatec\AppData\Local\GitHub\TutorialRepository_fdbf2020839cde135ff9dbed7d503f8e03fa3ab4\new-repo
+2015-10-07 18:40:42.6556|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 84:GitClient.cs:403
+2015-10-07 18:40:42.6556|INFO|thread:33|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 84:GitClient.cs:403 after waiting 0.0001135s
+2015-10-07 18:40:42.6586|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 85:GitClient.cs:403
+2015-10-07 18:40:42.6586|INFO|thread:22|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 85:GitClient.cs:403 after waiting 0.0035111s
+2015-10-07 18:40:42.6586|INFO|thread:27|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2015-10-07 18:40:42.6586|INFO|thread:27|GitEnvironment|PATH is C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094;C:\Users\linatec\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-10-07 18:40:42.6586|INFO|thread:27|ProcessWrapper|Starting: Process - FileName: 'C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'diff-tree --root -m -r -z --name-status 01ad9157cf120fc61d472c0fd66a58ce36b4df94 ', Working Directory: C:\Users\linatec\AppData\Local\GitHub\TutorialRepository_fdbf2020839cde135ff9dbed7d503f8e03fa3ab4\new-repo\
+2015-10-07 18:40:42.6776|INFO|thread:35|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2015-10-07 18:40:42.6776|INFO|thread:35|GitEnvironment|PATH is C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094;C:\Users\linatec\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-10-07 18:40:42.6776|INFO|thread:35|ProcessWrapper|Starting: Process - FileName: 'C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'diff-tree --root -m -r -z --name-status 01ad9157cf120fc61d472c0fd66a58ce36b4df94 ', Working Directory: C:\Users\linatec\AppData\Local\GitHub\TutorialRepository_fdbf2020839cde135ff9dbed7d503f8e03fa3ab4\new-repo\
+2015-10-07 18:40:42.7187|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 86:ICommittedFileForklift.cs:59
+2015-10-07 18:40:42.7187|INFO|thread:34|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 86:ICommittedFileForklift.cs:59 after waiting 3.96E-05s
+2015-10-07 18:40:42.7277|INFO|thread:16|AsyncReaderWriterLock|Released concurrent scheduler for operation: 86:ICommittedFileForklift.cs:59 after blocking 0.0083057s
+2015-10-07 18:40:42.7827|INFO|thread:27|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2015-10-07 18:40:42.7827|INFO|thread:27|GitEnvironment|PATH is C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094;C:\Users\linatec\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-10-07 18:40:42.7827|INFO|thread:27|ProcessWrapper|Starting: Process - FileName: 'C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'diff-tree --root -m -r -z --numstat 01ad9157cf120fc61d472c0fd66a58ce36b4df94 ', Working Directory: C:\Users\linatec\AppData\Local\GitHub\TutorialRepository_fdbf2020839cde135ff9dbed7d503f8e03fa3ab4\new-repo\
+2015-10-07 18:40:42.8767|INFO|thread:35|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2015-10-07 18:40:42.8767|INFO|thread:35|GitEnvironment|PATH is C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094;C:\Users\linatec\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-10-07 18:40:42.8767|INFO|thread:35|ProcessWrapper|Starting: Process - FileName: 'C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'diff-tree --root -m -r -z --numstat 01ad9157cf120fc61d472c0fd66a58ce36b4df94 ', Working Directory: C:\Users\linatec\AppData\Local\GitHub\TutorialRepository_fdbf2020839cde135ff9dbed7d503f8e03fa3ab4\new-repo\
+2015-10-07 18:40:43.0987|INFO|thread:10|AsyncReaderWriterLock|Released concurrent scheduler for operation: 84:GitClient.cs:403 after blocking 0.4428547s
+2015-10-07 18:40:43.0987|INFO|thread: 1|SelectedCommitViewModel|Took 446ms to load files for commit 01ad915 in repo C:\Users\linatec\AppData\Local\GitHub\TutorialRepository_fdbf2020839cde135ff9dbed7d503f8e03fa3ab4\new-repo
+2015-10-07 18:40:43.1507|INFO|thread:27|AsyncReaderWriterLock|Released concurrent scheduler for operation: 85:GitClient.cs:403 after blocking 0.4881349s
+2015-10-07 18:40:43.2157|INFO|thread: 1|SelectedCommitViewModel|Took 557ms to load files for commit 01ad915 in repo C:\Users\linatec\AppData\Local\GitHub\TutorialRepository_fdbf2020839cde135ff9dbed7d503f8e03fa3ab4\new-repo
+2015-10-07 18:40:47.4339|INFO|thread:17|DashboardViewModel|Selected repository 'linatec/GitHub'
+2015-10-07 18:40:47.4339|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 87:GitClient.cs:199
+2015-10-07 18:40:47.4339|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 88:RepositoryModel.cs:596
+2015-10-07 18:40:47.4339|INFO|thread:40|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 87:GitClient.cs:199 after waiting 0.0006417s
+2015-10-07 18:40:47.4539|INFO|thread:23|AsyncReaderWriterLock|Released concurrent scheduler for operation: 87:GitClient.cs:199 after blocking 0.0083223s
+2015-10-07 18:40:47.4539|INFO|thread:40|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 88:RepositoryModel.cs:596 after waiting 0.0084035s
+2015-10-07 18:40:47.4539|INFO|thread:23|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 89:GitClient.cs:288
+2015-10-07 18:40:47.4619|INFO|thread:23|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 90:BranchSynchronizer.cs:126
+2015-10-07 18:40:47.4619|INFO|thread:23|AsyncReaderWriterLock|Released concurrent scheduler for operation: 88:RepositoryModel.cs:596 after blocking 0.0075516s
+2015-10-07 18:40:47.4619|INFO|thread:40|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 89:GitClient.cs:288 after waiting 0.0005142s
+2015-10-07 18:40:47.4619|INFO|thread:23|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 90:BranchSynchronizer.cs:126 after waiting 0.0003079s
+2015-10-07 18:40:47.4619|INFO|thread:23|AsyncReaderWriterLock|Released concurrent scheduler for operation: 90:BranchSynchronizer.cs:126 after blocking 0.0062358s
+2015-10-07 18:40:47.4789|INFO|thread:23|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2015-10-07 18:40:47.4789|INFO|thread:23|GitEnvironment|PATH is C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094;C:\Users\linatec\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-10-07 18:40:47.4789|INFO|thread:23|ProcessWrapper|Starting: Process - FileName: 'C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\Users\linatec\Documents\GitHub\
+2015-10-07 18:40:47.6679|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 91:BranchSynchronizer.cs:126
+2015-10-07 18:40:47.6679|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 92:GitClient.cs:646
+2015-10-07 18:40:47.6679|INFO|thread: 4|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 91:BranchSynchronizer.cs:126 after waiting 0.009106s
+2015-10-07 18:40:47.6679|INFO|thread:34|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 92:GitClient.cs:646 after waiting 0.0073576s
+2015-10-07 18:40:47.6829|INFO|thread:22|AsyncReaderWriterLock|Released concurrent scheduler for operation: 92:GitClient.cs:646 after blocking 0.0055537s
+2015-10-07 18:40:47.6829|INFO|thread:35|AsyncReaderWriterLock|Released concurrent scheduler for operation: 91:BranchSynchronizer.cs:126 after blocking 0.0061969s
+2015-10-07 18:40:47.7719|INFO|thread:23|ConcurrentRepositoryConnection|Took 150ms to git status
+2015-10-07 18:40:47.7719|INFO|thread:23|ConcurrentRepositoryConnection|Took 150ms to git status and parse output
+2015-10-07 18:40:47.7959|INFO|thread:23|NewCommitViewModel|Took 334ms to load files for C:\Users\linatec\Documents\GitHub
+2015-10-07 18:40:47.7959|INFO|thread:23|AsyncReaderWriterLock|Released concurrent scheduler for operation: 89:GitClient.cs:288 after blocking 0.33422s
+2015-10-07 18:40:47.9079|INFO|thread:34|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 93:GitClient.cs:452
+2015-10-07 18:40:47.9079|INFO|thread: 4|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 93:GitClient.cs:452 after waiting 4E-05s
+2015-10-07 18:40:47.9289|INFO|thread:34|AsyncReaderWriterLock|Released concurrent scheduler for operation: 93:GitClient.cs:452 after blocking 0.0204714s
+2015-10-07 18:40:48.3030|INFO|thread: 1|NewCommitViewModel|Took 507ms to render file list for C:\Users\linatec\Documents\GitHub
+2015-10-07 18:40:48.3030|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 94:RepositoryViewModel.cs:325
+2015-10-07 18:40:48.3030|INFO|thread:34|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 94:RepositoryViewModel.cs:325 after waiting 0.0002598s
+2015-10-07 18:40:48.3120|WARN|thread:23|GetBranch`1|Could not resolve branch origin/master
+2015-10-07 18:40:48.3120|INFO|thread:23|AsyncReaderWriterLock|Released concurrent scheduler for operation: 94:RepositoryViewModel.cs:325 after blocking 0.0081367s
+2015-10-07 18:40:57.2845|INFO|thread: 1|ReactiveScreen|Activating GitHub.ViewModels.OptionsViewModel.
+2015-10-07 18:41:11.9893|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 95:GitClient.cs:199
+2015-10-07 18:41:11.9893|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 96:RepositoryModel.cs:596
+2015-10-07 18:41:11.9893|INFO|thread: 8|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 95:GitClient.cs:199 after waiting 0.001773s
+2015-10-07 18:41:11.9893|INFO|thread:23|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 96:RepositoryModel.cs:596 after waiting 0.0013073s
+2015-10-07 18:41:11.9893|INFO|thread:16|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 97:GitClient.cs:288
+2015-10-07 18:41:11.9893|INFO|thread:16|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 98:BranchSynchronizer.cs:126
+2015-10-07 18:41:11.9893|INFO|thread:16|AsyncReaderWriterLock|Released concurrent scheduler for operation: 96:RepositoryModel.cs:596 after blocking 0.009556s
+2015-10-07 18:41:12.0013|INFO|thread:16|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 97:GitClient.cs:288 after waiting 0.0004992s
+2015-10-07 18:41:12.0013|INFO|thread:23|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 98:BranchSynchronizer.cs:126 after waiting 0.000868s
+2015-10-07 18:41:12.0013|INFO|thread: 4|AsyncReaderWriterLock|Released concurrent scheduler for operation: 95:GitClient.cs:199 after blocking 0.0121733s
+2015-10-07 18:41:12.0013|INFO|thread:23|AsyncReaderWriterLock|Released concurrent scheduler for operation: 98:BranchSynchronizer.cs:126 after blocking 0.0076628s
+2015-10-07 18:41:12.0013|INFO|thread: 4|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2015-10-07 18:41:12.0013|INFO|thread: 4|GitEnvironment|PATH is C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094;C:\Users\linatec\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-10-07 18:41:12.0013|INFO|thread: 4|ProcessWrapper|Starting: Process - FileName: 'C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\Users\linatec\Documents\GitHub\
+2015-10-07 18:41:12.1943|INFO|thread: 5|ConcurrentRepositoryConnection|Took 115ms to git status
+2015-10-07 18:41:12.1943|INFO|thread: 5|ConcurrentRepositoryConnection|Took 122ms to git status and parse output
+2015-10-07 18:41:12.2223|INFO|thread: 5|NewCommitViewModel|Took 222ms to load files for C:\Users\linatec\Documents\GitHub
+2015-10-07 18:41:12.2223|INFO|thread: 5|AsyncReaderWriterLock|Released concurrent scheduler for operation: 97:GitClient.cs:288 after blocking 0.2218816s
+2015-10-07 18:41:12.2223|INFO|thread: 1|NewCommitViewModel|Took 6ms to render file list for C:\Users\linatec\Documents\GitHub
+2015-10-07 18:41:12.2223|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 99:RepositoryViewModel.cs:325
+2015-10-07 18:41:12.2223|INFO|thread:33|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 99:RepositoryViewModel.cs:325 after waiting 5.04E-05s
+2015-10-07 18:41:12.2383|WARN|thread:35|GetBranch`1|Could not resolve branch origin/master
+2015-10-07 18:41:12.2383|INFO|thread:35|AsyncReaderWriterLock|Released concurrent scheduler for operation: 99:RepositoryViewModel.cs:325 after blocking 0.0089474s
+2015-10-07 18:41:18.7037|INFO|thread: 1|UsageTracker|User has disabled sending anonymized usage statistics to GitHub
+2015-10-07 18:41:18.7037|INFO|thread:21|GitConfig|Saving global git configuration for user.name and user.email
+2015-10-07 18:41:18.7037|INFO|thread: 1|ReactiveScreen|Deactivating GitHub.ViewModels.OptionsViewModel.
+2015-10-07 18:41:18.7037|INFO|thread: 1|ReactiveScreen|Closed GitHub.ViewModels.OptionsViewModel.
+2015-10-07 18:43:06.5929|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 100:GitClient.cs:199
+2015-10-07 18:43:06.5929|INFO|thread:35|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 100:GitClient.cs:199 after waiting 8.73E-05s
+2015-10-07 18:43:06.5929|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 101:RepositoryModel.cs:596
+2015-10-07 18:43:06.5929|INFO|thread:33|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 101:RepositoryModel.cs:596 after waiting 0.0015613s
+2015-10-07 18:43:06.6049|INFO|thread:16|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 102:GitClient.cs:288
+2015-10-07 18:43:06.6049|INFO|thread:16|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 103:BranchSynchronizer.cs:126
+2015-10-07 18:43:06.6049|INFO|thread:16|AsyncReaderWriterLock|Released concurrent scheduler for operation: 101:RepositoryModel.cs:596 after blocking 0.0100322s
+2015-10-07 18:43:06.6049|INFO|thread:16|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 102:GitClient.cs:288 after waiting 0.0005666s
+2015-10-07 18:43:06.6049|INFO|thread:33|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 103:BranchSynchronizer.cs:126 after waiting 0.0003837s
+2015-10-07 18:43:06.6049|INFO|thread:33|AsyncReaderWriterLock|Released concurrent scheduler for operation: 103:BranchSynchronizer.cs:126 after blocking 0.0065211s
+2015-10-07 18:43:06.6239|INFO|thread:33|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2015-10-07 18:43:06.6239|INFO|thread:33|GitEnvironment|PATH is C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094;C:\Users\linatec\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-10-07 18:43:06.6239|INFO|thread:33|ProcessWrapper|Starting: Process - FileName: 'C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\Users\linatec\Documents\GitHub\
+2015-10-07 18:43:06.6379|INFO|thread:21|AsyncReaderWriterLock|Released concurrent scheduler for operation: 100:GitClient.cs:199 after blocking 0.0447501s
+2015-10-07 18:43:06.8909|INFO|thread: 5|ConcurrentRepositoryConnection|Took 124ms to git status
+2015-10-07 18:43:06.8909|INFO|thread: 5|ConcurrentRepositoryConnection|Took 124ms to git status and parse output
+2015-10-07 18:43:06.9479|INFO|thread: 5|NewCommitViewModel|Took 343ms to load files for C:\Users\linatec\Documents\GitHub
+2015-10-07 18:43:06.9479|INFO|thread: 5|AsyncReaderWriterLock|Released concurrent scheduler for operation: 102:GitClient.cs:288 after blocking 0.342657s
+2015-10-07 18:43:06.9809|INFO|thread: 1|NewCommitViewModel|Took 33ms to render file list for C:\Users\linatec\Documents\GitHub
+2015-10-07 18:43:06.9809|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 104:RepositoryViewModel.cs:325
+2015-10-07 18:43:06.9809|INFO|thread:22|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 104:RepositoryViewModel.cs:325 after waiting 5.42E-05s
+2015-10-07 18:43:07.0019|WARN|thread:35|GetBranch`1|Could not resolve branch origin/master
+2015-10-07 18:43:07.0019|INFO|thread:35|AsyncReaderWriterLock|Released concurrent scheduler for operation: 104:RepositoryViewModel.cs:325 after blocking 0.0177028s
+2015-10-07 18:43:11.5952|WARN|thread: 1|StandardUserErrors|Showing user error Failed to create a new commit.
+System.ArgumentNullException: Failed Null Check on 'commitModel'
+參數名稱: commitModel
+   於 GitHub.Helpers.Ensure.ArgumentNotNull(Object value, String name)
+   於 GitHub.ViewModels.CommitViewModel..ctor(IRepositoryModel repository, ICommitModel commitModel, ICommittedFileForklift committedFileForklift, IAvatarProvider avatarProvider, IInlineTextProvider inlineTextProvider)
+   於 GitHub.Helpers.CommitCreator.<>c__DisplayClass2.<CreateCommit>b__1(<>f__AnonymousType0`2 x)
+   於 System.Reactive.Linq.ObservableImpl.Select`2._.OnNext(TSource value)
+2015-10-07 18:43:20.6007|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 105:GitClient.cs:199
+2015-10-07 18:43:20.6007|INFO|thread:16|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 105:GitClient.cs:199 after waiting 5.5E-05s
+2015-10-07 18:43:20.6007|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 106:RepositoryModel.cs:596
+2015-10-07 18:43:20.6007|INFO|thread: 4|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 106:RepositoryModel.cs:596 after waiting 0.0024644s
+2015-10-07 18:43:20.6247|INFO|thread:25|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 107:GitClient.cs:288
+2015-10-07 18:43:20.6247|INFO|thread:25|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 108:BranchSynchronizer.cs:126
+2015-10-07 18:43:20.6247|INFO|thread:23|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 107:GitClient.cs:288 after waiting 0.000306s
+2015-10-07 18:43:20.6247|INFO|thread:25|AsyncReaderWriterLock|Released concurrent scheduler for operation: 106:RepositoryModel.cs:596 after blocking 0.0205738s
+2015-10-07 18:43:20.6247|INFO|thread:25|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 108:BranchSynchronizer.cs:126 after waiting 0.0003306s
+2015-10-07 18:43:20.6457|INFO|thread:34|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2015-10-07 18:43:20.6457|INFO|thread:34|GitEnvironment|PATH is C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\linatec\AppData\Local\Apps\2.0\Y6NNVNJ5.XT2\J4N9QB9V.Z46\gith..tion_317444273a93ac29_0003.0000_30c6a4a3ecafb094;C:\Users\linatec\AppData\Local\GitHub\lfs-amd64_0.5.4;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-10-07 18:43:20.6457|INFO|thread:34|ProcessWrapper|Starting: Process - FileName: 'C:\Users\linatec\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\Users\linatec\Documents\GitHub\
+2015-10-07 18:43:20.6457|INFO|thread:24|AsyncReaderWriterLock|Released concurrent scheduler for operation: 105:GitClient.cs:199 after blocking 0.0528838s
+2015-10-07 18:43:20.6547|INFO|thread:25|AsyncReaderWriterLock|Released concurrent scheduler for operation: 108:BranchSynchronizer.cs:126 after blocking 0.0292299s
+2015-10-07 18:43:20.8407|INFO|thread:34|ConcurrentRepositoryConnection|Took 109ms to git status
+2015-10-07 18:43:20.8407|INFO|thread:34|ConcurrentRepositoryConnection|Took 109ms to git status and parse output
+2015-10-07 18:43:20.8937|INFO|thread:34|NewCommitViewModel|Took 269ms to load files for C:\Users\linatec\Documents\GitHub
+2015-10-07 18:43:20.8937|INFO|thread:34|AsyncReaderWriterLock|Released concurrent scheduler for operation: 107:GitClient.cs:288 after blocking 0.2690276s
+2015-10-07 18:43:20.9077|INFO|thread: 1|NewCommitViewModel|Took 15ms to render file list for C:\Users\linatec\Documents\GitHub
+2015-10-07 18:43:20.9077|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation: 109:RepositoryViewModel.cs:325
+2015-10-07 18:43:20.9077|INFO|thread:27|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 109:RepositoryViewModel.cs:325 after waiting 6.54E-05s
+2015-10-07 18:43:20.9077|WARN|thread:16|GetBranch`1|Could not resolve branch origin/master
+2015-10-07 18:43:20.9077|INFO|thread:16|AsyncReaderWriterLock|Released concurrent scheduler for operation: 109:RepositoryViewModel.cs:325 after blocking 0.0086926s
